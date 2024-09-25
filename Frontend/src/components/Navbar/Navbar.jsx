@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <nav>
         <div className="left">
-            <a>
+            <a href='#'className='logo'>
               <img src="/logo.png" alt=''/>
               <span>ManiEstate</span>
             </a>
@@ -16,11 +16,13 @@ function Navbar() {
         </div>
         <div className="right">
         <a href='#'>Sign in</a>
-        <a href='#'>Sign up</a>
-
+        <a href='#' className='register'>Sign up</a>
+        <div className="menuIcon">
+          <img src='/' alt=""/>
+        </div>
         </div>
     </nav>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
