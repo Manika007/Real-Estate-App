@@ -1,5 +1,5 @@
 import HomePage from "./routes/homePage/homePage";
-
+import SinglePage from "./routes/singlePage/singlePage";
 import{
   createBrowserRouter,
   RouterProvider,
@@ -20,8 +20,12 @@ function App() {
           {
             path: "/list",
             element: <ListPage/>
+          },
+          {
+            path:"/:id",
+            element: <SinglePage/>
+
           }
-          
         ]
     }
   ]);
