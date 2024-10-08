@@ -110,7 +110,7 @@ export const listData = [
     bus: "100m away",
     restaurant: "50m away",
     description:
-      "Future alike hill pull picture swim magic chain seed engineer nest outer raise bound easy poetry gain loud weigh me recognize farmer bare danger. actually put square leg vessels earth engine matter key cup indeed body film century shut place environment were stage vertical roof bottom lady function breeze darkness beside tin view local breathe carbon swam declared magnet escape has from pile apart route coffee storm someone hold space use ahead sheep jungle closely natural attached part top grain your grade trade corn salmon trouble new bend most teacher range anybody every seat fifteen eventually",
+      "Welcome to this exquisite apartment in one of London’s most desirable neighborhoods. This stunning residence offers luxurious comfort and breathtaking views of the city skyline.The open-plan living space is flooded with natural light through floor-to-ceiling windows, seamlessly connecting the living, dining, and kitchen areas—perfect for relaxation and entertaining.The apartment features two spacious bedrooms, including a master suite with an en-suite bathroom, walk-in closet, and panoramic views.The modern kitchen is equipped with high-end appliances and a large island that doubles as a breakfast bar. Residents enjoy access to premium amenities, including a fitness center, rooftop terrace, 24-hour concierge, and secure underground parking. Located in a prime area, the apartment is surrounded by top dining, shopping, and entertainment, with excellent transport links for easy city access. Experience luxurious London living in this remarkable home.",
   };
   
   export const userData = {
