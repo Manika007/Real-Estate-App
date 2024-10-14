@@ -1,10 +1,11 @@
+import { Link } from "react-router-dom";
 import "./card.scss";
-import {Link} from "react-router-dom";
-function Card({item}) {
+
+function Card({ item }) {
   return (
     <div className="card">
       <Link to={`/${item.id}`} className="imageContainer">
-      <img src={item.img} alt=""/>
+        <img src={item.img} alt="" />
       </Link>
       <div className="textContainer">
         <h2 className="title">
@@ -14,8 +15,8 @@ function Card({item}) {
           <img src="/pin.png" alt="" />
           <span>{item.address}</span>
         </p>
-        <p className="price"> ${item.price}</p>
-        <div className="bottom"> 
+        <p className="price">$ {item.price}</p>
+        <div className="bottom">
           <div className="features">
             <div className="feature">
               <img src="/bed.png" alt="" />
@@ -37,7 +38,7 @@ function Card({item}) {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Card
+export default Card;
